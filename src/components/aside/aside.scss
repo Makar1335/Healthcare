@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@200;300&display=swap');
+
+// Большой блок
+.main-aside {
+    height: 100%;
+    aside {
+        background-color: white;
+        // float: left;
+        font-family: 'Lato', sans-serif;
+        color: #52575C;
+        padding-left: 18px;
+        padding-right: 50px;
+        // width: 256px;
+        height: 100%;
+        transition: all 500ms;
+        a {
+            text-decoration: none;
+            color: #52575C;
+            font-size: 14px;
+        }
+
+        a:hover {
+            color: #336CFB;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #A0A4A8;
+            padding-bottom: 20px;
+        }
+
+        .dash {
+            list-style-image: url(../../components/img/piechart.svg);
+        }
+
+        .dash:hover {
+            list-style-image: url(../../components/img/piechart_blue.svg);
+        }
+
+        .appoint {
+            list-style-image: url(../../components/img/stethoscope.svg);
+        }
+
+        .dr {
+            list-style-image: url(../../components/img/doctor.svg);
+        }
+
+        .depart {
+            list-style-image: url(../../components/img/nurse.svg);
+        }
+
+        .patients {
+            list-style-image: url(../../components/img/default.svg);
+        }
+
+        .pay {
+            list-style-image: url(../../components/img/creditcard.svg);
+            border-bottom: 2px solid #E8E8E8;
+        }
+
+        .help {
+            list-style-image: url(../../components/img/circled.svg);
+            padding-top: 30px;
+        }
+
+        img {
+            padding-top: 24px;
+            padding-bottom: 32px;
+        }
+
+        li {
+            padding-bottom: 14px;
+        }
+
+    }
+}
+
+// Маленький блок
+.small-aside {
+    height: 100%;
+    aside {
+        background-color: white;
+        // float: left;
+        font-family: 'Lato', sans-serif;
+        color: #52575C;
+        padding-left: 18px;
+        padding-right: 50px;
+        width: 30px;
+        height: 100%;
+
+        a {
+            text-decoration: none;
+            color: #52575C;
+            font-size: 14px;
+        }
+
+        a:hover {
+            color: #336CFB;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #A0A4A8;
+            padding-bottom: 20px;
+        }
+
+        .dash {
+            list-style-image: url(../../components/img/piechart.svg);
+        }
+
+
+
+        .appoint {
+            list-style-image: url(../../components/img/stethoscope.svg);
+        }
+
+
+
+        .dr {
+            list-style-image: url(../../components/img/doctor.svg);
+        }
+
+        .depart {
+            list-style-image: url(../../components/img/nurse.svg);
+        }
+
+        .patients {
+            list-style-image: url(../../components/img/default.svg);
+        }
+
+        .pay {
+            list-style-image: url(../../components/img/creditcard.svg);
+            border-bottom: 2px solid #E8E8E8;
+        }
+
+        .help {
+            list-style-image: url(../../components/img/circled.svg);
+            padding-top: 30px;
+
+        }
+
+        img {
+            padding-top: 24px;
+            padding-bottom: 32px;
+            padding-left: 10px;
+        }
+
+        li {
+            padding-bottom: 14px;
+        }
+
+    }
+}

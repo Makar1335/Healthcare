@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@200;300&display=swap');
+
+.block {
+  background-color: #F6F8FB;
+  // height: 1500px;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin-left: 30px;
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+
+    img {
+      width: 60px;
+    }
+
+    .search {
+      padding-right: 100px;
+    }
+
+    .img-header {
+      display: flex;
+
+    }
+  }
+
+  .cards-block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+
+  .all-block {
+    padding-top: 50px;
+  }
+
+  .all-charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .One-Two-charts {
+      display: flex;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+}
